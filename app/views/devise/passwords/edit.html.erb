@@ -1,7 +1,7 @@
 <div class="panel panel-default">
   <div class="panel-heading">
     <div class="panel-title">
-      <h1>Change your password</h1>
+      <h1>Zapomniałeś hasła?</h1>
     </div>
   </div>
   <div class="panel-body">
@@ -10,17 +10,17 @@
       <%= f.hidden_field :reset_password_token %>
 
       <div class="form-group">
-        <%= f.label :password, "New password" %>
+        <%= f.label :password, "Nowe hasło" %>
         <%= f.password_field :password, class: "form-control", :autofocus => true %>
       </div>
 
       <div class="form-group">
-        <%= f.label :password_confirmation, "Confirm new password" %>
+        <%= f.label :password_confirmation, "Potwierdź nowe hasło" %>
         <%= f.password_field :password_confirmation %>
       </div>
 
       <div class="form-group">
-        <%= f.submit "Change my password", class: "btn btn-primary" %>
+        <%= f.submit "Zmień hasło", class: "btn btn-primary" %>
       </div>
     <% end %>
   </div>

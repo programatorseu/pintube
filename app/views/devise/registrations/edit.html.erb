@@ -1,7 +1,7 @@
 <div class="panel panel-default">
   <div class="panel-heading">
     <div class="panel-title">
-      <h1>Edit <%= resource_name.to_s.humanize %></h1>
+      <h1>Edytuj <%= resource_name.to_s.humanize %></h1>
     </div>
   </div>
   <div class="panel-body">
@@ -24,15 +24,15 @@
       </div>
 
       <div class="form-group">
-        <%= f.submit "Update", class: "btn btn-primary" %>
+        <%= f.submit "Aktualizuj", class: "btn btn-primary" %>
       </div>
     <% end %>
   </div>
   <div class="panel-footer">
-    <h3>Cancel my account</h3>
+    <h3>Usuń moje konto</h3>
 
-    <p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), :data => { :confirm => "Are you sure?" }, :method => :delete, class: "btn btn-warning" %></p>
+    <p>Unhappy? <%= button_to "Usun moje konto", registration_path(resource_name), :data => { :confirm => "Jestes Pewien?" }, :method => :delete, class: "btn btn-warning" %></p>
 
-    <%= link_to "Back", :back %>
+    <%= link_to "Cofnij", :back %>
   </div>
 </div>
